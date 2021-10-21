@@ -7,23 +7,39 @@ div {
    
 form {                                         
     margin: 0 auto; 
-    width: 600px;
+    width: 800px;
     text-align: center;
-    border: 1px Solid black;
-    background-color: aliceblue;
+    border: none;
+    background-color: rgb(209, 206, 206);
 }
 
 form>p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    align-items: center;
 }
 input{
-    width: 300px;
-    margin-left: 2%;
+    width: 450px;
+    padding: 6px;
+    border-radius: 2.5px;
+    border: solid grey 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     float: inline-end;
 }
 .alert{
     color: red;
 }
+
+input[type = submit] {
+    background-color: orangered;
+    width: 100px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 2px;
+    color: white;
+    font-size: 13pt;
+}
+
